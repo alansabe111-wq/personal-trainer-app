@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  background: #f5f6fa;
+}
+
+/* contenedor */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* tarjetas */
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.08);
+  margin-bottom: 16px;
+}
+
+/* inputs */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* botones */
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .9;
+}
+
+/* títulos */
+h2 {
+  margin-top: 0;
+}
